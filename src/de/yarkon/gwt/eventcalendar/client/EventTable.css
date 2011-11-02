@@ -1,0 +1,33 @@
+/** css rules for cell table */
+.cellTable {
+	width: 300px;
+	height: 10%; /* FF uses otherwise complete available height*/
+	table-layout: fixed;
+	font-size: 0.7em;
+	border: 1px solid #bbbbbb;
+}
+
+.cellTableColumn-event {
+	width: 52%;
+}
+
+.cellTableFirstColumn {
+    color: blue;
+}
+
+.cellTableColumn-date {
+	width: 20%;
+}
+
+.cellTableColumn-loc {
+	width: 28%;
+}
+
+.cellTableRow {
+}
+
+.cellTableCell {
+  padding: 2px 5px;
+  overflow: hidden;
+  font-size: 1.3em;
+}

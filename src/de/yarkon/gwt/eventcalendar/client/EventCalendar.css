@@ -1,0 +1,29 @@
+/** css rules for stack panel */
+.gwt-StackLayoutPanel {
+	border-bottom: 1px solid #bbbbbb;
+	background-color: #D3DEF6;
+	-moz-border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+	height: 600px;
+	width: 300px;
+}
+
+.gwt-StackLayoutPanel .gwt-StackLayoutPanelHeader {
+	font-weight: normal;
+	font-size: 1.2em;
+	text-align: center;
+	-moz-border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+}
+
+.gwt-StackLayoutPanel .gwt-StackLayoutPanelContent {
+	border: none;
+	background-color: #D3DEF6;
+	padding: 0;
+}
+
+.gwt-StackLayoutPanel .scrollPanel {
+	overflow-x: hidden !important;
+}

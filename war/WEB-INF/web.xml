@@ -1,0 +1,19 @@
+<web-app>
+  
+  <!-- Servlets -->
+  <servlet>
+  	<servlet-name>EventCalendarService</servlet-name>
+  	<servlet-class>net.oberndoerfer.gwt.eventcalendar.server.EventCalendarServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>EventCalendarService</servlet-name>
+  	<url-pattern>/eventcalendar/EventCalendarService</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>EventCalendar.html</welcome-file>
+  </welcome-file-list>
+
+
+</web-app>
