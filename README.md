@@ -7,8 +7,10 @@ Data is read from a public Google spreadsheet and sorted by month in an accordio
 Live running app on App Engine
 ------------------------------
 http://androgon-event-calendar-srv.appspot.com/
+
 currently using this spreadsheet:
-        https://docs.google.com/a/androgon.de/spreadsheet/pub?hl=de&hl=de&key=0Ag_keZpRsME-dGNkeXA5aTdkWkZQLUl4SzJsY0RSVmc&output=html
+
+https://docs.google.com/a/androgon.de/spreadsheet/pub?hl=de&hl=de&key=0Ag_keZpRsME-dGNkeXA5aTdkWkZQLUl4SzJsY0RSVmc&output=html
 
 Dependencies
 ------------
